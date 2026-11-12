@@ -1,5 +1,5 @@
 function getGreeting() {
-    return "Hello, world! ";
+    return "Привет, мир!";
 }
 
 if (typeof module !== 'undefined' && module.exports) {
