@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Actions Demo</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        #message { font-size: 2em; color: #0366d6; }
+    </style>
+</head>
+<body>
+    <h1>Демонстрация CI/CD</h1>
+    <p id="message">Нажмите кнопку, чтобы увидеть приветствие</p>
+    <button id="greetBtn">Поприветствовать</button>
+    <script src="app.js"></script>
+    <script>
+        document.getElementById('greetBtn').addEventListener('click', () => {
+            document.getElementById('message').textContent = getGreeting();
+        });
+    </script>
+</body>
+</html>
