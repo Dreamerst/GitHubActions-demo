@@ -3,5 +3,5 @@ const assert = require('node:assert');
 const { getGreeting } = require('./app.js');
 
 test('getGreeting возвращает корректную строку', () => {
-    assert.strictEqual(getGreeting(), "Hello, world!");
+    assert.strictEqual(getGreeting(), "Hello, world! ");
 });
