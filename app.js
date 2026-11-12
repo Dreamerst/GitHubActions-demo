@@ -1,5 +1,5 @@
 function getGreeting() {
-    return "Привет, мир! Это приложение прошло через CI/CD пайплайн.";
+    return "Hello, world! ";
 }
 
 if (typeof module !== 'undefined' && module.exports) {
